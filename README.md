@@ -8,6 +8,25 @@ source only the lines attributed to it, and ask yes or no.
 
 日本語版：[README.ja.md](README.ja.md)
 
+## Use it now
+
+Paste this into your `CLAUDE.md` or `AGENTS.md`:
+
+```markdown
+## Before publishing a summary of several agents
+- For each source agent, extract only the lines that attribute something to it.
+- Send each source just those lines (not the whole document) and ask: "Did you say this? Yes or no. If no, what did you say?"
+- Fix the summary from the answers. Where the original text still exists, grep it.
+- A claim that an agent did not follow its instructions is checked separately, against that agent's own log.
+```
+
+Then:
+
+1. Before you publish minutes, a digest or a handoff note, run the check above (one round trip per source).
+2. Publish only after every source has answered.
+
+That is all. What it caught in our case, and its limits, are below.
+
 ---
 
 ## The problem
