@@ -146,4 +146,8 @@ The parts are known; we are not claiming the parts.
 
 ## License
 
-MIT. Use it, no attribution required — which is, admittedly, the joke.
+MIT. Use it, adapt it, build on it. When you do, please keep the author's name
+(Rurimpa) and a link to this repository. The MIT license itself requires that
+the copyright notice in [LICENSE](LICENSE) stays with every copy.
+
+Author: Rurimpa — https://github.com/Rurimpa
